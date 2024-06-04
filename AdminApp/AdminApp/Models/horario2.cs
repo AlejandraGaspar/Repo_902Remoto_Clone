@@ -1,0 +1,1 @@
+esta es una práctica para git revert al archivo horario2.cs
