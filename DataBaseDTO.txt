@@ -1,0 +1,30 @@
+public CitiesDataStore() {
+    Cities = new()
+    {
+        new CityDto { Id = 1,
+            Name = "Iguala de la Independencia",
+            Description = "Ciudad colonial, ciudad platera",
+            PointsOfInterest = {
+                        new PointOfInterestDto {Id = 1, Name = "Asta Monumental", Description = "La mas alta de Mexico"},
+                        new PointOfInterestDto {Id = 2, Name = "Laguna de Tuxpan", Description = "Para la cruda"},
+            }
+        }, // Primer registro de la base de datos
+        new CityDto { Id = 2,
+            Name = "Taxco de Alarcón",
+            Description = "Ciudad colonial, ciudad platera",
+            PointsOfInterest = {
+                new PointOfInterestDto {Id = 4, Name = "Catedral de Santa Prisca", Description = "Arquitectura gotica"},
+                new PointOfInterestDto {Id = 5, Name = "Cristo de Taxco", Description = "Limpia tus pecados"},
+            }
+        }, // Segundo registro de la base de datos
+        new CityDto { Id = 3,
+            Name = "Acapulco de Juarez",
+            Description = "La bahia más hermosa de México",
+            PointsOfInterest = {
+                new PointOfInterestDto {Id = 6, Name = "La Quebrada", Description = "Clavados en Mar Abierto"},
+                new PointOfInterestDto {Id = 7, Name = "La Diana Cazadora", Description = "Monumento"},
+                new PointOfInterestDto {Id = 8, Name = "Parque Papagayo", Description = "Parque"}
+            }
+        }
+    };
+}
